@@ -126,7 +126,7 @@
     background-color: hsl(217, 19%, 35%);
 }
 
-@media(min-width:375px) and (max-width:1600px)
+@media all and (min-width:375px) and (max-width:1600px)
 {
 body{
     background-color:rgb(219, 252, 252);
@@ -161,7 +161,7 @@ body{
 
 
 }
-@media(max-width:375px)
+@media all and (max-width:375px)
 {
 
     #container{
