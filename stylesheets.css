@@ -126,41 +126,7 @@
     background-color: hsl(217, 19%, 35%);
 }
 
-@media all and (min-width:375px) and (max-width:1600px)
-{
-body{
-    background-color:rgb(219, 252, 252);
-}
 
-#container{
-    position:absolute;
-    margin:0;
-    padding:0;
-    height:300px;
-    width:800px;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    display:flex;
-    background-color: white;
-}
-
-.c1{
-    color:hsl(210, 46%, 95%);
-}
-
-.c2{
-    color:white;
-}
-
-
-#firstimage>img{
-    height:300px;
-    width:300px;
-}
-
-
-}
 @media only screen and (max-width:375px)
 {
 
@@ -212,5 +178,40 @@ body{
 
     
     
+}
+@media all and (min-width:375px) and (max-width:1600px)
+{
+body{
+    background-color:rgb(219, 252, 252);
+}
+
+#container{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:300px;
+    width:800px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    background-color: white;
+}
+
+.c1{
+    color:hsl(210, 46%, 95%);
+}
+
+.c2{
+    color:white;
+}
+
+
+#firstimage>img{
+    height:300px;
+    width:300px;
+}
+
+
 }
 
