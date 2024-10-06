@@ -38,7 +38,7 @@ function even1(){
     flag1=0;
 }
 
-let w=window.matchMedia("(min-width: 375px)");
+let w=window.matchMedia("(min-width: 400px)");
 
 w.addEventListener('change', (e) => {
     if (e.matches) {
